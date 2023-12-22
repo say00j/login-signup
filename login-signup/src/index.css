@@ -6,10 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height:100vh;
-/*background:url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat fixed;
-background-size: cover;*/
+  background:url("https://img.freepik.com/free-vector/gradient-abstract-motion-background_23-2149121881.jpg?w=996&t=st=1703261819~exp=1703262419~hmac=f58153bdf70b92dc7571d6e179970fff6f122e757953a6e93124199e87f26076") no-repeat fixed;
+background-size: cover;
 
-  background:linear-gradient(blue,black);
+  /*background:linear-gradient(rgb(14, 14, 182),rgb(185, 14, 201));*/
+  
+
 }
 
 code {

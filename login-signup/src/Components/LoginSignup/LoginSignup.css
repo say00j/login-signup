@@ -4,9 +4,12 @@
     margin:auto;
     margin-top:100px;
     width:600px;
-    background:#000000b0;
+    /*background:#000000b0;*/
+    background:url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1703261908~exp=1703262508~hmac=78c353cd825f9e5ca62d7a16f919f234977f0e46f6c19fd43da9e95f4cba326f") no-repeat fixed;
+    background-size: cover;
     padding-bottom:30px;
     border-radius:15px;
+    /*border: 2px solid black;*/
 }
 .header{
     display:flex;
