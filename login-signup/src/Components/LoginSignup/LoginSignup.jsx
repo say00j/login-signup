@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './LoginSignup.css'
+import './LoginSignup.css' 
 import user_icon from '../Assets/person.png'
 import email_icon from '../Assets/email.png'
 import password_icon from '../Assets/password.png'
@@ -9,6 +9,7 @@ export const LoginSignup = () => {
   const [action,setAction] = useState("Sign Up");
 
   return (
+    <>
     <div className='container'>
        <div className="header">
          <div className="text">{action}</div>
@@ -34,5 +35,6 @@ export const LoginSignup = () => {
         <div className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
        </div>
     </div>
+  </>
   )
 }

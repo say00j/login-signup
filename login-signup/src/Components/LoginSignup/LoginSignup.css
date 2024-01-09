@@ -4,8 +4,8 @@
     margin:auto;
     margin-top:100px;
     width:600px;
-    /*background:#000000b0;*/
-    background:url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1703261908~exp=1703262508~hmac=78c353cd825f9e5ca62d7a16f919f234977f0e46f6c19fd43da9e95f4cba326f") no-repeat fixed;
+    background:#000000b0;
+    /*background:rgb(98, 97, 97);*/
     background-size: cover;
     padding-bottom:30px;
     border-radius:15px;
@@ -19,6 +19,14 @@
     width:100%;
     margin-top:30px;
 }
+.header:hover {
+    color: #ffffff; /* Change text color on hover */
+    transform: scale(1.1); /* Scale the text on hover */
+  }
+.text:hover {
+    color: #ffffff; /* Change text color on hover */
+    transform: scale(1.1); /* Scale the text on hover */
+  }
 .text{
     color: #4c00b4;
     font-size:48px;
@@ -28,8 +36,9 @@
     width: 61px;
     height:6px;
     border-radius:9px;
-    background: #4c00b4;
+    background: #000000;
 }
+
 .inputs{
     margin-top:55px;
     display:flex;
@@ -44,6 +53,7 @@
     height:80px;
     background:#eaeaea;
     border-radius:6px;
+    border: 2px solid black;
 }
 .input img{
     margin: 0px 30px;
@@ -56,6 +66,7 @@
     outline:none;
     color:#797979;
     font-size: 19px;
+    
 }
 .forgot-password{
     padding-left: 62px;

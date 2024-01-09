@@ -1,16 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
-import { LoginSignup } from './Components/LoginSignup/LoginSignup';
+import {Home}  from './Components/Home/Home';
+import {LoginSignup}  from './Components/LoginSignup/LoginSignup';
+import {NotFoundPage}  from './Components/NotFoundPage/NotFoundPage';
+import { Routes, Route } from 'react-router-dom';
 
-
-function App() {
+const App = () => {
   return (
-   
     <div>
-      <LoginSignup/>
+    <Routes>
+      <Route path="/" element={<LoginSignup/>}/>
+      <Route path="/home" element={<Home/>}/>
+      <Route path="*" element={<NotFoundPage/>} />
+    </Routes>
     </div>
-    
   );
-}
+};
 
 export default App;
