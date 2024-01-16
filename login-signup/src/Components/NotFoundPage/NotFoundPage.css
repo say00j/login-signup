@@ -1,14 +1,15 @@
 
 .background {
+    text-align: center;
     width: 100%;
-    height: 100vh;
-    background-color: #00000083;
+    height: 100%;
+    background-color: #fe030382;
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 p {
-    color: white;
+    color: rgb(255, 255, 255);
 }
